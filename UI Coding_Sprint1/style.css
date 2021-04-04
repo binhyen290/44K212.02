@@ -1,0 +1,205 @@
+div#chiacotgd1 {
+	background-color: #0c395d;
+}
+img#imglogo{
+	width: 140px;
+	height: 140px;
+}
+.col-lg-3 {
+    text-align: center;
+}
+.col-lg-6 {
+    padding-top: 35px;
+}
+h2#tenweb {
+    font-size: xxx-large;
+    font-style: italic;
+    color: #33;
+    color: #1934cc;
+}
+span#sloganweb {
+    font-size: x-large;
+    color: white;
+}
+div#gd2 {
+	background-color: #d0dce5;
+}
+ul#menu {
+	display: flex;
+	list-style: none;
+	margin-top: 16px;
+}
+li.listmenu{
+    width: 100px;
+    margin-left: 25px;
+    font-size: large;
+}
+.listmenu a:hover{
+	color:red;
+	text-decoration: none;
+}
+div#chiacotgd3{
+    width: 100%;
+    height: 400px;
+}
+div#gd3 {
+    width:100%; 
+    height: 600px;
+    background-image: url("./bgsanbong.jpg");
+    background-repeat: round;
+}
+div#fbdueslogan {
+    text-align: center;
+    margin-top: 250px;
+}
+h3#fbdue {
+    font-size: xx-large;
+    font-style: italic;
+    color: #1d94f1;
+}
+span#slogangd3 {
+    color: white;
+    font-size: x-large;
+}
+div#xemthongtinsan {
+    text-align: center;
+}
+button#xemttsan {
+    border-radius: 15px;
+    height: 40px;
+}
+
+.modal-content {
+    height: 600px;
+    width: 640px;
+}
+.dang-nhap {
+    width: max-content;
+    height: 100px;
+    position: absolute;
+    top: 33px;
+    background-color: gray;
+    padding: 20px;
+    display: none;
+}
+
+#dn{
+    position: relative;
+}
+.hien {
+    display: block!important;
+}
+.dang-nhap.hien {
+    height: 170px;
+    width: 250px;
+    margin-left: 120px;
+    margin-top: -50px;
+    background-color: #fffefe;
+    border-style: groove;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+input.dien{
+    border-radius: 15px;
+    width: 175px;
+    color: #c8baba;
+    margin-top: 7px;
+}
+button#an_dangnhap {
+    border-radius: 20px;
+    background-color: #4797d7;
+    color: white;
+    margin-top: 7px;
+    margin-left: 100px;
+}
+img.loginpass{
+    width: 25px;
+}
+div#xemthongtinsan{
+    margin-top: 10px;
+}
+form {
+    /* FONT-WEIGHT: 300; */
+    text-align: center;
+    background-color: #59a8e7;
+    border-radius: 12px;
+    /* width: 700px; */
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+select#chonsan {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+}
+select#chongio {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    width: 130px;
+}
+input#datepicker {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    width: 160px;
+    /* color: #a53131; */
+    color: black;
+}
+button#xacnhan {
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffbf00e6;
+    width: 100px;
+}
+div#p3gd1 {
+    margin-top: -28px;
+}
+img#imglogo {
+    margin-left: 140px;
+}
+section.giaodien4 {
+    height: 350px;
+    background-color: #ededed;
+}
+div#p1gd4 {
+    text-align: center;
+    padding-top: 35px;
+}
+span#slogangd4 {
+    font-size: x-large;
+    color: #ff9800;
+}
+div#imgnoidung4_1 {
+    width: 33.3%;
+    text-align: center;
+}
+div#noidung4 {
+    width: 33.3%;
+    text-align: center;
+}
+span.tieudend4 {
+    /* font-weight: bold; */
+    font-size: large;
+    font-weight: bold;
+}
+div#tieude4 {
+    width: 33.3%;
+    text-align: center;
+}
+div#ndtieude4 {
+    width: 33.3%;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: #7d7d7d;
+}
+div#nd1gd4 {
+    width: 33.3%;
+    text-align: center;
+    display: inline;
+}
