@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+.jumbotron img {
+    width: 125px;
+}
+
+header .jumbotron {
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+header nav.navbar {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    z-index: 11;
+}
+
+#drop_dangnhap {
+    z-index: 11;
+    width: 18rem;
+}
+
+header nav.navbar .navbar-brand img {
+    width: 55px;
+    display: none;
+}
+
+form.form_dang_nhap {
+    display: block;
+}
+
+form.form_dang_nhap button#an_dangnhap {
+    display: block;
+    margin-right: 14px;
+    float: right;
+}
+
+form.form_dang_nhap input {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+}
+
+div#navbarSupportedContent {
+    justify-content: center;
+}
+
+header .jumbotron .display-4 {
+    font-weight: 600;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#datsan_bong select, #datsan_bong input {
+    width: 50%!important;
+}
+
+#quan_ly_dat_san td a.btn:first-child {
+    color: #007272;
+    font-size: 24px;
+}
+
+#quan_ly_dat_san td a.btn:last-child {
+    color: #ca0606;
+    font-size: 24px;
+}
+span.chap_nhan {
+    color: #007272;
+}
+
+span.huy_bo {
+    color: #ca0606;
+}
+
+#navbarSupportedContent a.nav-link {
+    font-size: 18px;
+    color: #333;
+}
+
+#navbarSupportedContent a.nav-link:hover {
+    color: #3b6282;
+}
+
+#navbarSupportedContent ul.navbar-nav li {
+    padding: 2px 20px;
+}
+
+#tieu_de_trang h2 {
+    padding: 20px 0px;
+}
+
+button.btn.btn-warning {
+    display: block;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+#cap_nhat_bai_viet h2 {
+    padding: 20px 0px;
+}
+
+.tentb .date , .datett {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+form.form_dang_nhap .form-group {
+    padding: 3px 10px;
+    margin-bottom: 0px;
+}
+
+form.form_dang_nhap span.icon_login {
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+form.form_dang_nhap input[name=tendangnhap] {
+    margin-left: 14px;
+}
+
+div#myCarousel {
+    margin-bottom: 0px;
+}
+
+section.giaodien4 div#p1gd4 h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+div#p1gd5, div#p2gd5 {
+    border-right: 1px solid #ddd;
+    padding-bottom: 32px;
+}
+
+div#tbgd5, div#ttgd5 {
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+div#p3gd5 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.lich_dat_san table {
+    width: 100%;
+}
+
+.lich_dat_san table thead th {
+    text-align: center;
+}
+
+.lich_dat_san table, th, td {
+    border: 1px solid black;
+}
+
+.lich_dat_san table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.lich_dat_san table tbody th {
+    text-align: center;
+}
+
+.header_tt div.dsthongbao {
+    background-color: #e5e5e5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 52px 0 66px;
+    text-align: center;
+    background-image: url(images/background_1.jpeg);
+}
+
+section.danhsachthongbao,
+section.danhsachtintuc {
+    background: #ddd;
+    min-height: 600px;
+}
+
+.tentb span.datetb {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666666;
+    vertical-align: bottom;
+}
+
+.tentb .date p {
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 4px;
+    color: #444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+div#chiacotchitiet {
+    margin: 35px 0px;
+}
+
+.tieu-de-thong-bao h4 {
+    font-size: 19px;
+    color: #0473b3;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.tieu-de-thong-bao .date {
+    color: #717171;
+    margin-bottom: 10px;
+}
+
+.tieu-de-thong-bao .date i {
+    padding-right: 8px;
+}
+
+.tieu-de-thong-bao {
+    padding: 0 10%;
+}
+
+.noi-dung-thong-bao {
+    padding: 0 10%;
+}
+
+.noi-dung-thong-bao p {
+    text-align: left;
+    line-height: 26px;
+}
+
+.ttk .tb_tt {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+.ttk .tb_k {
+    display: block;
+    width: 100%;
+    background: #ddd;
+    padding: 12px;
+    border-bottom: 1px dashed #c9c9c9;
+    cursor: pointer;
+    animation: all .2s;
+    color: #333;
+}
+.ttk .tb_k a.noidungtb {
+    display: block;
+    text-align: left;
+    padding-left: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222222;
+}
+
+.ttk .tb_k span {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    color: #0473b3;
+}
+
+.ttk .tb_tt span {
+    font-size: 20px;
+    color: #137ab6;
+    padding: 5px 0px;
+    display: block;
+    font-weight: 600;
+}
+
+.ttk .tb_k:hover {
+    color: white;
+    background: #106cb2;
+}
+
+.ttk .tb_k:hover a,
+.ttk .tb_k:hover span {
+    color: white;
+}
+
+.tk_ds {
+    padding: 20px 0;
+}
+
+.tk_ds .col-md-6 {
+    padding-left: 0;
+}
+
+.danhmuctopic table tbody td p{
+    line-height: 21px;
+    margin-bottom: 4px;
+    color: var(--color-title);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.danhmuctopic table tbody td:nth-child(2),
+.danhmuctopic table thead th:nth-child(2) {
+    width: 20%;
+}
+
+.danhmuctopic table tbody td:nth-child(3),
+.danhmuctopic table thead th:nth-child(3) {
+    width: 30%;
+}
+
+.danhmuctopic table tbody td:nth-child(5),
+.danhmuctopic table thead th:nth-child(5) {
+    width: 10%;
+}
+
+.danhmuctopic table tbody td:nth-child(6),
+.danhmuctopic table thead th:nth-child(6) {
+    width: 14%;
+    text-align: center;
+}
+
+.ds_doi_bd {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+}
+
+#chiacotdanhmuctopic {
+    background: #F0F0F0;
+}
+
+.title-bar {
+    margin-bottom: 10px;
+}
+
+.title-bar h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.title-bar p.muted {
+    font-size: 14px;
+    color: rgb(150,150,150);
+    margin-top: 4px;
+}
+
+.section-main {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+}
+
+.section-main .section-header {
+    font-size: 12px;
+    color: rgb(109,63,3);
+    text-decoration: none;
+    background-color: #f9d9b0;
+    padding: 5px 10px;
+    margin: 3px auto 0;
+    border: 1px solid #f9bc6d;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.section-main .section-header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: normal;
+}
+
+.section-main .section-header div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.avatar-author {
+    width: 10%;
+}
+
+.tieu-de_doi-bd {
+    width: 40%;
+    text-align: left!important;
+}
+
+.tl_doi-bd {
+    width: 25%;
+}
+
+.ngay_dang_doi-bd {
+    width: 25%;
+}
+
+.list-item_doi-bd {
+    list-style: none;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: normal;
+    border-bottom: 1px solid #d7edfc;
+    padding: 5px 0;
+}
+
+.list-item_doi-bd li.poster-avatar img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+li.poster-avatar {
+    width: 10%;
+}
+
+li.tieu-de_item-bd {
+    width: 40%;
+    text-align: left!important;
+}
+
+ol.list-item_doi-bd li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+li.total-tl {
+    width: 25%;
+}
+
+li.ngay-dangn_item-bd {
+    width: 25%;
+}

@@ -24,9 +24,11 @@ $errors = '';
         if ($result = mysqli_query($connect,$sql)) {
             $_SESSION['msg-success'] = 'Xử lý đặt sân thành công !';
             header("location:quan_ly_dat_san.php");
+            die();
         }else{
             $_SESSION['msg-success'] = $errors;
             header("location:quan_ly_dat_san.php");
+            die();
         }
   
     }
